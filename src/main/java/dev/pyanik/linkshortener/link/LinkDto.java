@@ -1,4 +1,4 @@
-package dev.greencashew.linkshortener.controller;
+package dev.pyanik.linkshortener.link;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import io.swagger.v3.oas.annotations.media.Schema;
@@ -6,7 +6,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import java.time.LocalDate;
 
-record LinkDto(
+public record LinkDto(
         @Schema(description = "Identifier/alias to link. Used for redirection.", example = "link-alias", required = true)
         String id,
         @Schema(description = "E-mail address of the user.", example = "piotr.nowak@mail.com", required = true)

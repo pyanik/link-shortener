@@ -1,5 +1,6 @@
-package dev.greencashew.linkshortener.controller;
+package dev.pyanik.linkshortener.controller;
 
+import dev.pyanik.linkshortener.link.LinkDto;
 import io.swagger.v3.oas.annotations.media.Schema;
 
 import java.time.LocalDate;
