@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="link-shortener" target="17" />
+      <module name="link-shortener" target="16" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
